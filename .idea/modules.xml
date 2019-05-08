@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/HZERO.iml" filepath="$PROJECT_DIR$/.idea/HZERO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hcbm-gateway-helper/hcbm-gateway-helper.iml" filepath="$PROJECT_DIR$/hcbm-gateway-helper/hcbm-gateway-helper.iml" />
     </modules>
   </component>
 </project>

@@ -5,7 +5,7 @@ then
     curl https://nexus.choerodon.com.cn/repository/choerodon-release/io/choerodon/choerodon-tool-liquibase/0.9.2.RELEASE/choerodon-tool-liquibase-0.9.2.RELEASE.jar -o target/choerodon-tool-liquibase.jar
 fi
 
-java -Dspring.datasource.url="jdbc:mysql://localhost:3306/hzero_workflow?useUnicode=true&characterEncoding=utf-8&useSSL=false" \
+java -Dspring.datasource.url="jdbc:mysql://localhost:3306/hzero_platform?useUnicode=true&characterEncoding=utf-8&useSSL=false" \
 	 -Dspring.datasource.username=root \
 	 -Dspring.datasource.password=123456 \
 	 -Ddata.drop=false \
